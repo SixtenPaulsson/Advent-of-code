@@ -19,7 +19,7 @@ def replaceNr(line):
     line = line.replace("nine", "nine9nine")
     return line
 
-file = open("data.txt", "r")
+file = open("2023/day1/data.txt", "r")
 värde=0
 for x in file:
     line=replaceNr(x)
